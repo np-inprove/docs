@@ -7,22 +7,27 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Guide', link: '/guide/get-started' },
+      { text: 'Reference', link: '/reference/overview' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Guide',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Get started', link: '/guide/get-started' },
+        ]
+      },
+      {
+        text: 'Reference',
+        items: [
+          { text: 'Overview', link: '/reference/overview' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/np-inprove' }
     ]
   }
 })
