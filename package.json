@@ -2,7 +2,11 @@
   "name": "docs",
   "version": "0.1.0",
   "description": "Documentation for the iNProve project",
-  "scripts": {},
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
   "author": "Qin Guan",
   "license": "BSD-3-Clause",
   "devDependencies": {
