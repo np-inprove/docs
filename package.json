@@ -2,8 +2,10 @@
   "name": "docs",
   "version": "0.1.0",
   "description": "Documentation for the iNProve project",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Qin Guan",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "vitepress": "1.0.0-beta.1"
+  }
 }
