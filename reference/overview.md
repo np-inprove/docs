@@ -12,11 +12,29 @@ The term institution refers to the highest level of an educational organization 
 
 All other resources reside under the institution.
 
+## Institution
+
+An institution can only be created by users with __god mode__ enabled.
+
+An institution has a rotatable invite link. This is the only way for users to register an account on the iNProve platform.
+
+::: info
+
+This means every user is associated with one institution only. Users should register with their institution provided email address.
+
+:::
+
+Alternative method of registration such as emails may be introduced in the future.
+
 ## Groups
 
 Groups are used to share information between a collection of users. Most features of iNProve are accessed through a group.
 
 For example, a group can be created for a module, or a Special Interest Group.
+
+Similarly, users can join the group using an invite link.
+
+Alternative method of registration such as emails may be introduced in the future.
 
 ### Roles
 
