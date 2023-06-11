@@ -16,7 +16,11 @@ All other resources reside under the institution.
 
 An institution can only be created by users with __god mode__ enabled.
 
-An institution has a rotatable invite link. This is the only way for users to register an account on the iNProve platform.
+An institution has invite links, which determine the role a user will get.
+
+No matter the role, the invite link is the only way for users to register an account on the iNProve platform.
+
+Alternative method of registration such as emails may be introduced in the future.
 
 ::: info
 
@@ -24,7 +28,19 @@ This means every user is associated with one institution only. Users should regi
 
 :::
 
-Alternative method of registration such as emails may be introduced in the future.
+### Roles
+
+| Variant  | Remarks                                                          |
+| -------- | ---------------------------------------------------------------- |
+| Admin    | Institution admins are able to modify details of the institution |
+| Educator | Educators are allowed to create group                            |
+| Member   | Members are only allowed to join groups                          |
+
+::: info
+
+Institution roles are separate from group roles. A user can be an educator under an institution, but a member in a group, or vice versa.
+
+:::
 
 ## Groups
 
@@ -32,7 +48,7 @@ Groups are used to share information between a collection of users. Most feature
 
 For example, a group can be created for a module, or a Special Interest Group.
 
-Similarly, users can join the group using an invite link.
+Similarly, users can join the group using an invite link, which will decide their role.
 
 Alternative method of registration such as emails may be introduced in the future.
 
@@ -48,7 +64,7 @@ Every member of a group is associated with a role.
 
 ### Announcements
 
-Announcements are used to distribute information to everyone in a group. Posting announcements are limited.
+Announcements are used to distribute information to everyone in a group. Posting announcements are limited to Educator and Owner roles.
 
 ### Deadlines
 
@@ -90,7 +106,13 @@ Prizes are managed at institution level, not group.
 
 ### Pets
 
-Every user has a collection of pets. Accessories or food for the pets can be redeemed through prizes.
+Every user has a __single__ pet. Accessories or food for the pets can be redeemed through prizes.
+
+::: info
+
+Redeeming prizes for pets cannot be managed by the institution. Every institution will have the same pets shared across the iNProve platform.
+
+:::
 
 ### Vouchers
 
