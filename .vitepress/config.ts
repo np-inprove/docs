@@ -5,7 +5,8 @@ export default defineConfig({
   title: "iNProve Docs",
   description: "Gamified learning for everyone",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    outline: 'deep',
+
     nav: [
       { text: 'Guide', link: '/guide/get-started' },
       { text: 'Reference', link: '/reference/overview' }
