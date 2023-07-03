@@ -10,6 +10,6 @@
   "author": "Qin Guan",
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "vitepress": "1.0.0-beta.4"
+    "vitepress": "1.0.0-beta.5"
   }
 }
